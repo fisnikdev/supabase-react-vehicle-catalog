@@ -30,7 +30,7 @@ A modern web application for browsing and managing premium used car imports, tar
 
 | Home Page | Car Search | Car Detail |
 |:---:|:---:|:---:|
-| ![Home](./public/carspage.png) | ![Search](./public/carspage.png) | ![Detail](./public/cdetailspage.png) |
+| ![Home](./public/mainpage.png) | ![Search](./public/carspage.png) | ![Detail](./public/cdetailspage.png) |
 
 ## How to run locally
 ```bash
