@@ -28,6 +28,10 @@ A modern web application for browsing and managing premium used car imports, tar
 - Supabase handled auth, DB, and storage without needing a separate backend server
 - Tailwind made responsive layouts quick and consistent across devices
 
+| Home Page | Car Search | Car Detail |
+|:---:|:---:|:---:|
+| ![Home](./public/carspage.png) | ![Search](./public/carspage.png) | ![Detail](./public/cdetailspage.png) |
+
 ## How to run locally
 ```bash
 git clone https://github.com/yourusername/vetrix-auto.git
@@ -37,7 +41,3 @@ cp .env.example .env.local  # Add your Supabase URL/key
 npm run dev
 
 Github // Fisnikdev
-
-| Home Page | Car Search | Car Detail |
-|:---:|:---:|:---:|
-| ![Home](./public/carspage.png) | ![Search](./public/carspage.png) | ![Detail](./public/cdetailspage.png) |
