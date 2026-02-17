@@ -37,3 +37,7 @@ cp .env.example .env.local  # Add your Supabase URL/key
 npm run dev
 
 Github // Fisnikdev
+
+| Home Page | Car Search | Car Detail |
+|:---:|:---:|:---:|
+| ![Home](./public/carspage.png) | ![Search](./public/carspage.png) | ![Detail](./public/cdetailspage.png) |
