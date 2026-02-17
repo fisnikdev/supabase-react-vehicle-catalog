@@ -1,0 +1,4 @@
+project_id = "hwtrfsvrlzknilxuumof"
+
+[functions.encar]
+verify_jwt = false

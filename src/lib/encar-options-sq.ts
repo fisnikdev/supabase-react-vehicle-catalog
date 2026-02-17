@@ -1,0 +1,51 @@
+export const ALBANIAN_OPTIONS: Record<string, { name: string; desc: string }> = {
+
+  "095": { name: "Head-up Display (HUD)", desc: "Projekton informacionet kryesore direkt në xhamin e parë." },
+  "005": { name: "Navigacioni (GPS)", desc: "Sistemi i integruar i hartave për orientim gjatë rrugës." },
+  "004": { name: "Monitor AV (Përpara)", desc: "Ekran multimedial përpara për argëtim dhe kontrollin e mjetit." },
+  "096": { name: "Bluetooth", desc: "Lidhja e telefonit për muzikë dhe thirrje rrugës." },
+  "072": { name: "Terminal USB", desc: "Portë USB për karikim dhe lidhje të mediave." },
+  "015": { name: "Mbyllje me Telekomandë", desc: "Mbyllja dhe hapja e dyerve në distancë përmes telekomandës." },
+
+
+  "094": { name: "Frenë Dore Elektronike (EPB)", desc: "Zëvendëson frenën manuale me një buton elektrik." },
+  "057": { name: "Çelës Inteligjent (Smart Key)", desc: "Ndezja e makinës me buton pa pasur nevojë të nxirrni çelësin." },
+  "081": { name: "Sensor Shiu", desc: "Aktivizon fshirëset e xhamit automatikisht kur detekton lagështi." },
+  "097": { name: "Drita Automatike", desc: "Ndez dritat automatikisht kur errësohet jashtë." },
+  "085": { name: "Sensore Parkimi (Para)", desc: "Sinjalizon distancën nga pengesat përpara." },
+  "032": { name: "Sensore Parkimi (Mbrapa)", desc: "Sinjalizon distancën nga pengesat mbrapa." },
+  "086": { name: "Sistemi i Pikës së Verbër", desc: "Njofton për mjetet që ndodhen në këndin e padukshëm." },
+  "058": { name: "Kamerë e Pasme", desc: "Kamerë për asistencë gjatë lëvizjes mbrapsht." },
+  "079": { name: "Pilot Automatik Adaptiv", desc: "Ruan distancën automatike nga mjeti përpara." },
+  "068": { name: "Pilot Automatik (Cruise Control)", desc: "Ruan shpejtësinë e caktuar automatikisht." },
+  "023": { name: "Klima Automatike", desc: "Rregullon temperaturën e ambientit automatikisht." },
+  "092": { name: "Airbag Perde (Mbrapa)", desc: "Mbrojtje për kokën e pasagjerëve në pjesën e pasme." },
+  "093": { name: "Airbag Perde", desc: "Mbrojtje anësore për të gjithë pasagjerët." },
+  "001": { name: "Sistemi ABS", desc: "Parandalon bllokimin e rrotave gjatë frenimit të fortë." },
+  "055": { name: "Kontrolli i Stabilitetit (ESC)", desc: "Ndihmon në mbajtjen e mjetit në rrugë gjatë kthesave." },
+
+
+  "021": { name: "Sedilje Elektrike (Shoferi)", desc: "Rregullim i pozicionit të sediljes së shoferit me buton." },
+  "035": { name: "Sedilje Elektrike (Pasagjeri)", desc: "Rregullim i pozicionit të sediljes së pasagjerit me buton." },
+  "022": { name: "Sedilje me Ngrohje (Para)", desc: "Ngrohje e integruar në sediljet e para për ditët e ftohta." },
+  "063": { name: "Sedilje me Ngrohje (Mbrapa)", desc: "Ngrohje e integruar në sediljet e pasme." },
+  "034": { name: "Sedilje me Ventilimin", desc: "Ftohje e sediljeve me ajër, ideal për stinën e verës." },
+  "064": { name: "Sedilje me Masazh", desc: "Sedilje me funksion masazhi për të reduktuar lodhjen." },
+  "051": { name: "Sedilje me Memorie (Shoferi)", desc: "Ruan dhe rikthen pozicionin e preferuar të shoferit." },
+  "078": { name: "Sedilje me Memorie (Pasagjeri)", desc: "Ruan dhe rikthen pozicionin e preferuar të pasagjerit." },
+  "014": { name: "Sedilje Lëkure", desc: "Sedilje të mbuluara me lëkurë cilësore." },
+
+  "010": { name: "Tavan Panoramik (Sunroof)", desc: "Çati xhami që ofron dritë natyrale dhe mundësi hapjeje." },
+  "075": { name: "Fenerë (LED)", desc: "Ndriçim modern LED, efikas dhe i qartë." },
+  "029": { name: "Fenerë (HID)", desc: "Ndriçim me intensitet të lartë për shikueshmëri më të mirë natën." },
+  "059": { name: "Bagazh Elektrik", desc: "Hapja dhe mbyllja e bagazhit në mënyrë automatike me buton." },
+  "080": { name: "Dyer me Thithje", desc: "Sistem që siguron mbylljen e plotë dhe të butë të dyerve." },
+  "024": { name: "Pasqyra me Palosje Elektrike", desc: "Pasqyra që palosen automatikisht me buton." },
+  "017": { name: "Disqe Alumini", desc: "Disqe të lehta alumini që përmirësojnë performancën." },
+  "083": { name: "Timon me Rregullim Elektrik", desc: "Rregullim i lartësisë së timonit me buton." },
+  "084": { name: "Ndërrues Shpejtësie në Timon", desc: "Leva (Paddle Shift) pas timonit për ndërrim manual." },
+  "031": { name: "Komanda në Timon", desc: "Butona në timon për kontrollin e audios dhe telefonatave." },
+  "002": { name: "Suspension Elektronik (ECS)", desc: "Sistem që rregullon lartësinë dhe fortësinë e amortizatorëve." },
+  "007": { name: "Xhama Elektrikë", desc: "Hapja dhe mbyllja e xhamave të mjetit në mënyrë elektrike." },
+  "008": { name: "Timon me Fuqi (Power Steering)", desc: "Sistem që lehtëson rrotullimin e timonit." }
+};
