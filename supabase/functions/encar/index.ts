@@ -5,6 +5,8 @@ const corsHeaders = {
   'Access-Control-Allow-Headers': 'authorization, x-client-info, apikey, content-type',
 };
 
+const SHIPPING_COST_EUR = 1500;
+
 interface EncarSearchResult {
   Id: string;
   Model: string;
@@ -1127,7 +1129,7 @@ serve(async (req: Request) => {
         model: await translateToEnglish(String(car.Model || '')),
         badge: await translateToEnglish(String(car.Badge || '') + ' ' + String(car.BadgeDetail || '')),
         year: car.Year,
-        priceEur: Math.round((Number(car.Price) || 0) * 10000 * rate),
+        priceEur: Math.round(((Number(car.Price) || 0) * 10000 * rate) + SHIPPING_COST_EUR),
         mileage: car.Mileage || 0,
         displacement: car.Displacement || 0, 
         image: car.Photo ? buildImageUrl(String(car.Photo)) : '',
@@ -1173,7 +1175,7 @@ serve(async (req: Request) => {
           badge: await translateToEnglish(data.category?.gradeEnglishName || ''),
           year: data.category?.formYear || 0,
           priceKrw: (data.advertisement?.price || 0) * 10000,
-          priceEur: Math.round((data.advertisement?.price || 0) * 10000 * rate),
+          priceEur: Math.round(((Number(car.Price) || 0) * 10000 * rate) + SHIPPING_COST_EUR),
           mileage: data.spec?.mileage || 0,
           displacement: data.spec?.displacement || 0,
           fuelType: await translateToEnglish(data.spec?.fuelName || ''),
