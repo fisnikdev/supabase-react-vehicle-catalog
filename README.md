@@ -34,7 +34,7 @@ A modern web application for browsing and managing premium used car imports, tar
 
 ## How to run locally
 ```bash
-git clone https://github.com/yourusername/vetrix-auto.git
+git clone https://github.com/fisnikdev/vetrix-auto.git
 cd vetrix-auto
 npm install
 cp .env.example .env.local  # Add your Supabase URL/key
